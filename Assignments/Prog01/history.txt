@@ -1,0 +1,50 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  wget --version
+    4  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    5  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    6  google-chrome
+    7  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+    8  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee/etc/apt/sources.list.d/sublime-text.list
+    9  echo "deb https://download.sublimetext.com/apt/stable/" | sudo tee/etc/apt/sources.list.d/sublime-text.list
+   10  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   11  sudo apt-get update
+   12  sudo apt-get install sublime-text
+   13  subl
+   14  pwd
+   15  ls
+   16  cd Desktop/CSC412/A1
+   17  ls
+   18  gcc -o hello hello.c
+   19  sudo apt install gcc
+   20  gcc -o hello hello.c
+   21  ./hello
+   22  subl hello.c
+   23  gcc -o hello hello.c
+   24  ./hello
+   25  subl
+   26  bash hello
+   27  bash hello.sh
+   28  ./hello.sh
+   29  bash hello.sh
+   30  clear
+   31  ./hello
+   32  bash hello.sh
+   33  cd
+   34  mkdir new_folder
+   35  cd new_folder
+   36  pwd
+   37  pwd > path.txt
+   38  pr path.txt
+   39  clear
+   40  touch
+   41  clear
+   42  touch new.txt
+   43  ls
+   44  ls -la
+   45  rm new.txt
+   46  ls
+   47  subl
+   48  history
+   49  bash hello.sh
+   50  history > history.txt
