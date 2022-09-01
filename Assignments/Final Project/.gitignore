@@ -1,0 +1,6 @@
+build/
+*.pdf
+*.docx
+*.sh
+.DS_Store
+gl_frontEnd.cpp
